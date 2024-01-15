@@ -6,9 +6,9 @@ The story will embark users on a journey through PICO 4 Enterprise's different f
 
 If you find any bugs, or want to share some feedback, send an email to pico-business-techsupport@bytedance.com, or just open an Issue in this repository.
 
-
-https://github.com/picoxr/FeaturesDemo/assets/15983798/96837aff-b5ed-49d8-9f17-2cd3b1490f48
-
+<div align="center">
+ <video src="https://github.com/picoxr/FeaturesDemo/assets/15983798/96837aff-b5ed-49d8-9f17-2cd3b1490f48" width="400" />
+</div>
 
 ## Requirements
 - PICO 4 Enterprise with the following configuration:
