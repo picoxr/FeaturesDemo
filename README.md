@@ -3,7 +3,12 @@
 The PICO Features Demo springs from the need to have an in-house PICO demo that can show the device's most advanced features while maintaining a slow and friendly enough pace for VR newcomers.
 This demo is conceived as a story-driven application that requires little to no guidance from the PICO promoter, giving complete freedom to the user to experiment with the headset in a controlled environment.
 The story will embark users on a journey through PICO 4 Enterprise's different features. They will learn about the different hardware and software specifications in an immersive experience, interacting with different virtual elements and sparking the interest of new and skilled VR users on Pico products.
+
 If you find any bugs, or want to share some feedback, send an email to pico-business-techsupport@bytedance.com, or just open an Issue in this repository.
+
+
+https://github.com/picoxr/FeaturesDemo/assets/15983798/96837aff-b5ed-49d8-9f17-2cd3b1490f48
+
 
 ## Requirements
 - PICO 4 Enterprise with the following configuration:
