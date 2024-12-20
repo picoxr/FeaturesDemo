@@ -12,11 +12,13 @@ public class SeethroughManager : MonoBehaviour
     [HideInInspector]
     public bool seethroughActivated = false;
 
+    public GameObject[] seethroughGameObjects;
+
     void OnApplicationPause(bool pause)
     {
         if (!pause && seethroughActivated)
         {
-            PXR_Boundary.EnableSeeThroughManual(true);
+            PXR_Manager.EnableVideoSeeThrough = true;
         }
     }
 
@@ -35,13 +37,29 @@ public class SeethroughManager : MonoBehaviour
     public void ActivateSeethrough()
     {
         seethroughActivated = true;
-        PXR_Boundary.EnableSeeThroughManual(true);
+        PXR_Manager.EnableVideoSeeThrough = true;
+
+        foreach (GameObject g in seethroughGameObjects)
+        {
+            if (g != null)
+            {
+                g.SetActive(false);
+            }
+        }
     }
 
     public void DeactivateSeethrough()
     {
         seethroughActivated = false;
-        PXR_Boundary.EnableSeeThroughManual(false);
+        PXR_Manager.EnableVideoSeeThrough = false;
+
+        foreach (GameObject g in seethroughGameObjects)
+        {
+            if (g != null)
+            {
+                g.SetActive(true);
+            }
+        }
     }
 
 

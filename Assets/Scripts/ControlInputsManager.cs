@@ -35,11 +35,6 @@ public class ControlInputsManager : MonoBehaviour
 
     private bool controllersActive = false;
 
-    void Start()
-    {
-        SeethroughWindowManager.TestedSeethroughEvent += HandTrackingReady;
-    }
-
     /// <summary>
     /// This method is called every frame during runtime. If the demo has been initiated, it checks if hand tracking is active.
     /// If hand tracking is active, it checks if controllers are active, and activates hands if they are.
