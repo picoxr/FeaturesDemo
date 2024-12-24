@@ -217,7 +217,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:G:/PICO_M2/SDK/Unity/PICO Unity Integration SDK_305",
+      "version": "file:../PICO Unity Integration SDK_305",
       "depth": 0,
       "source": "local",
       "dependencies": {
